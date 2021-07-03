@@ -15,8 +15,4 @@ export class AppComponent {
     this.todos.push(new Todo(2, 'ir ao mercado', false));
     this.todos.push(new Todo(3, 'cortar o cabelo', true));
   }
-
-  remover() {
-    this.todos
-  }
 }
